@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+\function App() {
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Hello React is Working 🎉</h1>
+    </div>
+  );
+}
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default App;

@@ -1,4 +1,4 @@
-const Url = require("../models/Url");
+const Url = require("../models/url");
 const generateShortcode = require("../utils/generateShortcode");
 
 exports.createShortUrl = async (req, res) => {
